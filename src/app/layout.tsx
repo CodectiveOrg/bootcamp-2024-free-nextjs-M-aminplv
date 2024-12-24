@@ -3,10 +3,9 @@ import { Vazirmatn } from "next/font/google";
 import "./globals.css";
 
 const vazirmatn = Vazirmatn({
-	subsets: ["latin", "arabic"],
-	display: "swap",
+  subsets: ["latin", "arabic"],
+  display: "swap",
 });
-
 
 export const metadata: Metadata = {
   title: "دکتر کو",
@@ -19,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-		<html lang="fa" dir="rtl" className={vazirmatn.className}>
-			<body>{children}</body>
-		</html>
-	);
+    <html lang="fa" dir="rtl" className={vazirmatn.className}>
+      <body>{children}</body>
+    </html>
+  );
 }
