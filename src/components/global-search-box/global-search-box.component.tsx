@@ -1,4 +1,3 @@
-
 import MingcuteSearchLine from "@/icons/MingcuteSearchLine";
 import MingcuteLocationLine from "@/icons/MingcuteLocationLine";
 

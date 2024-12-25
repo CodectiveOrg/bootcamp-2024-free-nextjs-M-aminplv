@@ -42,7 +42,6 @@ html {
   color-scheme: dark;
 }
 
-
 input,
 label,
 select,
@@ -80,7 +79,7 @@ body {
 
   min-block-size: 100vh;
   min-block-size: 100dvh;
-  
+
   > * {
     padding-inline: var(--full-width-padding-inline);
   }
@@ -89,7 +88,7 @@ body {
     background-color: var(--color-gray-16);
 
     padding: 1rem;
-    
+
     text-align: center;
   }
 }
