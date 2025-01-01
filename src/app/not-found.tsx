@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 
 import notFoundImage from "@/assets/illustrations/not-found.svg";

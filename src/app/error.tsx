@@ -13,7 +13,7 @@ type Props = {
   reset: () => void;
 };
 
- function Error({ error, reset }: Props): ReactElement {
+function Error({ error, reset }: Props): ReactElement {
   return (
     <div className={styles["error"]}>
       <div className={styles.writings}>
